@@ -27,4 +27,33 @@ APPID=<API ключ на сайте https://home.openweathermap.org/api_keys>
 docker-compose up -d --build
 ```
 
+### альтернативный запуск:
+- Склонируйте репозиторий.
+```
+git clone https://github.com/elvir906/test_task_multibot.git
+```
+
+- Создайте в директории файл виртуального окружения .env и укажите в нём переменные:
+```
+TELEGRAM_TOKEN=<токен вашего бота>
+GROUP_CHAT_ID=<id вашего группового чата>
+APPID=<API ключ на сайте https://home.openweathermap.org/api_keys>
+```
+
+- настройте виртуальное окружение
+```
+python -m venv venv
+source venv/Scripts/activate
+```
+
+- установите зависимости
+```
+pip install -r requirements.txt
+```
+
+- запустите модуль main.py
+```
+python main.py
+```
+
 
