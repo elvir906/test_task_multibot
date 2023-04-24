@@ -4,7 +4,7 @@
 #Запуск
 - Склонируйте репозиторий.
 ```
-git clone
+git clone https://github.com/elvir906/test_task_multibot.git
 ```
 
 - Создайте файл виртуального окружения .env и укажите в нём переменные:
