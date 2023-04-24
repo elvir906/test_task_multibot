@@ -27,7 +27,7 @@ APPID=<API ключ на сайте https://home.openweathermap.org/api_keys>
 docker-compose up -d --build
 ```
 
-### альтернативный запуск:
+### альтернативный запуск (если нет docker):
 - Склонируйте репозиторий.
 ```
 git clone https://github.com/elvir906/test_task_multibot.git
